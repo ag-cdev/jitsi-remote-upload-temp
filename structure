@@ -1,0 +1,11 @@
+call-> class containing all details -> calling their specific remote
+    (interact with config here)     -> calling the db class to log it using                                      identifier
+    
+    
+Verify upload is complete-> send it to notify db-> use config to determine if delete or not.
+
+
+CREATE TABLE  MODIFY 
+COLUMN empLoginTime 
+TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+ON UPDATE CURRENT_TIMESTAMP;  
